@@ -1,0 +1,2914 @@
+[GIN] 2025/01/23 - 16:37:30 | 429 |    2.442317ms |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:37:31 | 429 |      46.444µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:37:32 | 429 |      57.467µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:37:33 | 429 |      50.431µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:37:33 | 429 |       65.34µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:38:19 | 429 |      44.169µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:38:21 | 429 |      51.117µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:38:22 | 429 |      59.154µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:38:22 | 429 |      41.601µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:38:22 | 429 |      60.032µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:38:23 | 429 |      46.942µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:38:23 | 429 |     108.056µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:38:34 | 429 |      50.256µs |       127.0.0.1 | DELETE   "/protected/tasks/8"
+[GIN] 2025/01/23 - 16:38:39 | 401 |      60.836µs |       127.0.0.1 | POST     "/protected/create-task"
+[GIN] 2025/01/23 - 16:38:40 | 401 |      51.666µs |       127.0.0.1 | POST     "/protected/create-task"
+[GIN] 2025/01/23 - 16:38:40 | 401 |      69.927µs |       127.0.0.1 | POST     "/protected/create-task"
+[GIN] 2025/01/23 - 16:38:40 | 401 |      53.639µs |       127.0.0.1 | POST     "/protected/create-task"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:38:47.571627399 +0530 IST m=+0.005550244",
+  "time": "2025-01-23 16:38:47"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:38:47"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 16:38:49 | 401 |      55.401µs |       127.0.0.1 | POST     "/protected/create-task"
+[GIN] 2025/01/23 - 16:38:53 | 200 |    6.281403ms |       127.0.0.1 | POST     "/protected/tasks"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:45:27.442960869 +0530 IST m=+0.008997938",
+  "time": "2025-01-23 16:45:27"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:45:27"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 16:45:32 | 200 |    2.023619ms |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:45:32 | 200 |     394.034µs |       127.0.0.1 | POST     "/protected/tasks"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:46:26.118598347 +0530 IST m=+0.005271287",
+  "time": "2025-01-23 16:46:26"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:46:26"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 16:46:35 | 200 |     928.467µs |       127.0.0.1 | POST     "/protected/tasks"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:48:03.2019835 +0530 IST m=+0.006524508",
+  "time": "2025-01-23 16:48:03"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:48:03"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 16:48:04 | 200 |    1.040616ms |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:48:05 | 200 |     992.022µs |       127.0.0.1 | POST     "/protected/tasks"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:48:22.596511717 +0530 IST m=+0.006636555",
+  "time": "2025-01-23 16:48:22"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:48:22"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 16:48:23 | 200 |    1.220928ms |       127.0.0.1 | POST     "/protected/tasks"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:48:51.410142992 +0530 IST m=+0.006800981",
+  "time": "2025-01-23 16:48:51"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:48:51"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:49:51.655956744 +0530 IST m=+0.006571661",
+  "time": "2025-01-23 16:49:51"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:49:51"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:50:19.135912649 +0530 IST m=+0.007305978",
+  "time": "2025-01-23 16:50:19"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:50:19"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 16:50:20 | 200 |    2.470541ms |       127.0.0.1 | POST     "/protected/tasks"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:51:03.239588408 +0530 IST m=+0.006758713",
+  "time": "2025-01-23 16:51:03"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:51:03"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 16:51:09 | 200 |    1.071043ms |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:51:10 | 200 |     713.955µs |       127.0.0.1 | POST     "/protected/tasks"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:51:22.276036005 +0530 IST m=+0.006843442",
+  "time": "2025-01-23 16:51:22"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:51:22"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 16:51:23 | 200 |    1.681336ms |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:51:24 | 200 |     728.864µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:51:35 | 200 |     529.405µs |       127.0.0.1 | POST     "/protected/tasks"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:52:23.785329767 +0530 IST m=+0.007185889",
+  "time": "2025-01-23 16:52:23"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:52:23"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 16:52:26 | 401 |      97.986µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:52:35 | 200 |    4.030486ms |       127.0.0.1 | POST     "/public/login"
+[GIN] 2025/01/23 - 16:52:40 | 200 |     801.535µs |       127.0.0.1 | POST     "/public/login"
+[GIN] 2025/01/23 - 16:52:47 | 200 |     785.583µs |       127.0.0.1 | POST     "/public/login"
+[GIN] 2025/01/23 - 16:52:57 | 200 |     857.287µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:55:04 | 200 |     637.984µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:55:06 | 200 |     682.015µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:55:08 | 200 |     749.653µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:55:10 | 200 |     662.818µs |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 16:55:10 | 200 |     736.072µs |       127.0.0.1 | POST     "/protected/tasks"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:58:08.091037742 +0530 IST m=+0.006276041",
+  "time": "2025-01-23 16:58:08"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:58:08"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 16:58:10 | 200 |    2.671432ms |       127.0.0.1 | POST     "/protected/tasks"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 16:59:51.873817494 +0530 IST m=+0.007269706",
+  "time": "2025-01-23 16:59:51"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 16:59:51"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] POST   /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 16:59:55 | 200 |    1.027761ms |       127.0.0.1 | POST     "/protected/tasks"
+[GIN] 2025/01/23 - 17:00:14 | 200 |      687.79µs |       127.0.0.1 | POST     "/protected/tasks"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:02:25.320541184 +0530 IST m=+0.006844944",
+  "time": "2025-01-23 17:02:25"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:02:25"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 17:02:40 | 200 |    1.328223ms |       127.0.0.1 | GET      "/protected/tasks?id=11"
+[GIN] 2025/01/23 - 17:02:42 | 200 |     674.696µs |       127.0.0.1 | GET      "/protected/tasks?id=11"
+[GIN] 2025/01/23 - 17:02:58 | 200 |     535.188µs |       127.0.0.1 | GET      "/protected/tasks?id=11"
+[GIN] 2025/01/23 - 17:02:59 | 200 |     794.514µs |       127.0.0.1 | GET      "/protected/tasks?id=11"
+[GIN] 2025/01/23 - 17:03:00 | 200 |     723.745µs |       127.0.0.1 | GET      "/protected/tasks?id=11"
+[GIN] 2025/01/23 - 17:03:00 | 200 |     592.676µs |       127.0.0.1 | GET      "/protected/tasks?id=11"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:03:44.53394861 +0530 IST m=+0.009806540",
+  "time": "2025-01-23 17:03:44"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:03:44"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 17:03:53 | 200 |    1.834247ms |       127.0.0.1 | GET      "/protected/tasks?id=11"
+[GIN] 2025/01/23 - 17:04:03 | 200 |     648.315µs |       127.0.0.1 | GET      "/protected/tasks?id=11"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:04:50.261829606 +0530 IST m=+0.006917384",
+  "time": "2025-01-23 17:04:50"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:04:50"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 17:04:53 | 200 |    1.371905ms |       127.0.0.1 | GET      "/protected/tasks?id=11"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:05:45.646214624 +0530 IST m=+0.007771194",
+  "time": "2025-01-23 17:05:45"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:05:45"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 17:05:46 | 200 |    1.775423ms |       127.0.0.1 | GET      "/protected/tasks?id=11"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:06:18.788243415 +0530 IST m=+0.010254824",
+  "time": "2025-01-23 17:06:18"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:06:18"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:87",
+  "func": "golang-assesment/Controllers.GetTask",
+  "level": "error",
+  "msg": " @ContactModification  @CheckMobileExists   Error fetching data against mobile from OB. Error: <nil>",
+  "time": "2025-01-23 17:06:20"
+}
+[GIN] 2025/01/23 - 17:06:20 | 200 |    1.083514ms |       127.0.0.1 | GET      "/protected/tasks?id=11"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:11:21.956153638 +0530 IST m=+0.008830099",
+  "time": "2025-01-23 17:11:21"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:11:21"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:87",
+  "func": "golang-assesment/Controllers.GetTask",
+  "level": "error",
+  "msg": "11 @GetTask Error while fetch data from db and Error: <nil>",
+  "time": "2025-01-23 17:11:24"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:92",
+  "func": "golang-assesment/Controllers.GetTask",
+  "level": "error",
+  "msg": "11  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 17:11:24"
+}
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 422 with 200
+[GIN] 2025/01/23 - 17:11:24 | 422 |     901.828µs |       127.0.0.1 | GET      "/protected/tasks?id=11"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:11:39.495222482 +0530 IST m=+0.007010311",
+  "time": "2025-01-23 17:11:39"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:11:39"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:87",
+  "func": "golang-assesment/Controllers.GetTask",
+  "level": "error",
+  "msg": "11 @GetTask Error while fetch data from db and Error: <nil>",
+  "time": "2025-01-23 17:11:40"
+}
+[GIN] 2025/01/23 - 17:11:40 | 422 |    1.012351ms |       127.0.0.1 | GET      "/protected/tasks?id=11"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:19:44.890643525 +0530 IST m=+0.007068758",
+  "time": "2025-01-23 17:19:44"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:19:44"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 17:19:45 | 401 |      73.373µs |       127.0.0.1 | POST     "/protected/create-task"
+[GIN] 2025/01/23 - 17:20:07 | 500 |   19.569028ms |       127.0.0.1 | POST     "/protected/create-task"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:20:38.737614021 +0530 IST m=+0.006823673",
+  "time": "2025-01-23 17:20:38"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:20:38"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 17:20:41 | 201 |    3.646817ms |       127.0.0.1 | POST     "/protected/create-task"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:21:44.228203426 +0530 IST m=+0.005160036",
+  "time": "2025-01-23 17:21:44"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:21:44"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 17:21:45 | 500 |   25.282355ms |       127.0.0.1 | POST     "/protected/create-task"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:22:01.519831988 +0530 IST m=+0.006284657",
+  "time": "2025-01-23 17:22:01"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:22:01"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:100",
+  "func": "golang-assesment/Controllers.CreateTask",
+  "level": "error",
+  "msg": " @GetTask Error while fetch data from db and Error: ",
+  "time": "2025-01-23 17:22:02"
+}
+[GIN] 2025/01/23 - 17:22:02 | 422 |    5.708929ms |       127.0.0.1 | POST     "/protected/create-task"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:22:18.31431519 +0530 IST m=+0.007619023",
+  "time": "2025-01-23 17:22:18"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:22:18"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 17:22:19 | 500 |   25.064247ms |       127.0.0.1 | POST     "/protected/create-task"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:23:28.322782656 +0530 IST m=+0.007322052",
+  "time": "2025-01-23 17:23:28"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:23:28"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:100",
+  "func": "golang-assesment/Controllers.CreateTask",
+  "level": "error",
+  "msg": " @GetTask Error while fetch data from db and Error: <nil>",
+  "time": "2025-01-23 17:23:29"
+}
+[GIN] 2025/01/23 - 17:23:29 | 422 |    4.683963ms |       127.0.0.1 | POST     "/protected/create-task"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:24:41.801839589 +0530 IST m=+0.022502263",
+  "time": "2025-01-23 17:24:41"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:24:41"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 17:24:41 | 500 |   15.836058ms |       127.0.0.1 | POST     "/protected/create-task"
+[GIN] 2025/01/23 - 17:24:45 | 500 |   32.216948ms |       127.0.0.1 | POST     "/protected/create-task"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:30:57.530779363 +0530 IST m=+0.017374081",
+  "time": "2025-01-23 17:30:57"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:30:57"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 17:31:18 | 200 |    16.80857ms |       127.0.0.1 | POST     "/protected/create-task"
+[GIN] 2025/01/23 - 17:31:18 | 200 |    7.076939ms |       127.0.0.1 | POST     "/protected/create-task"
+[GIN] 2025/01/23 - 17:31:19 | 200 |    6.442992ms |       127.0.0.1 | POST     "/protected/create-task"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 17:51:57.835318595 +0530 IST m=+0.016843865",
+  "time": "2025-01-23 17:51:57"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 17:51:57"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 18:11:19 | 401 |       64.56µs |       127.0.0.1 | PUT      "/protected/tasks/8"
+[GIN] 2025/01/23 - 18:11:24 | 200 |    9.308654ms |       127.0.0.1 | POST     "/public/login"
+[GIN] 2025/01/23 - 18:11:32 | 404 |    1.178505ms |       127.0.0.1 | PUT      "/protected/tasks/8"
+[GIN] 2025/01/23 - 18:11:33 | 404 |     572.406µs |       127.0.0.1 | PUT      "/protected/tasks/8"
+[GIN] 2025/01/23 - 18:11:54 | 200 |    8.321426ms |       127.0.0.1 | PUT      "/protected/tasks/19"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 18:12:14.120828438 +0530 IST m=+0.008392816",
+  "time": "2025-01-23 18:12:14"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 18:12:14"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 18:12:25 | 200 |    5.415725ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+[GIN] 2025/01/23 - 18:12:31 | 200 |    5.094506ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 18:13:52.529652852 +0530 IST m=+0.007673891",
+  "time": "2025-01-23 18:13:52"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 18:13:52"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 18:13:58 | 200 |    5.819577ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+[GIN] 2025/01/23 - 18:15:51 | 200 |     4.79945ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 18:17:01.24498925 +0530 IST m=+0.006870708",
+  "time": "2025-01-23 18:17:01"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 18:17:01"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:117",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:17:02"
+}
+[GIN] 2025/01/23 - 18:17:02 | 200 |    4.454347ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 18:23:20.258421479 +0530 IST m=+0.006609093",
+  "time": "2025-01-23 18:23:20"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 18:23:20"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:23:24"
+}
+[GIN] 2025/01/23 - 18:23:24 | 200 |     4.97545ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:23:26"
+}
+[GIN] 2025/01/23 - 18:23:26 | 200 |    1.196557ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:23:27"
+}
+[GIN] 2025/01/23 - 18:23:27 | 200 |    1.045167ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 18:23:59.854145484 +0530 IST m=+0.009541112",
+  "time": "2025-01-23 18:23:59"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 18:23:59"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:24:02"
+}
+[GIN] 2025/01/23 - 18:24:02 | 200 |    1.609811ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:24:04"
+}
+[GIN] 2025/01/23 - 18:24:04 | 200 |     1.31042ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:24:04"
+}
+[GIN] 2025/01/23 - 18:24:04 | 200 |    1.620501ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:24:06"
+}
+[GIN] 2025/01/23 - 18:24:06 | 200 |    1.332686ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:24:06"
+}
+[GIN] 2025/01/23 - 18:24:06 | 200 |    1.810645ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:24:07"
+}
+[GIN] 2025/01/23 - 18:24:07 | 200 |     1.02761ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:24:07"
+}
+[GIN] 2025/01/23 - 18:24:07 | 200 |     944.575µs |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:24:07"
+}
+[GIN] 2025/01/23 - 18:24:07 | 200 |    2.059874ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 18:24:13.891723241 +0530 IST m=+0.007179207",
+  "time": "2025-01-23 18:24:13"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 18:24:13"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:24:16"
+}
+[GIN] 2025/01/23 - 18:24:16 | 200 |    5.069392ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 18:24:57.192862814 +0530 IST m=+0.007574480",
+  "time": "2025-01-23 18:24:57"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 18:24:57"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:132",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:24:59"
+}
+[GIN] 2025/01/23 - 18:24:59 | 200 |    1.529559ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 18:25:26.784471767 +0530 IST m=+0.006335045",
+  "time": "2025-01-23 18:25:26"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 18:25:26"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:134",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:25:28"
+}
+[GIN] 2025/01/23 - 18:25:28 | 200 |    1.983847ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:134",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:25:29"
+}
+[GIN] 2025/01/23 - 18:25:29 | 200 |    1.485294ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 18:25:49.234826958 +0530 IST m=+0.004947323",
+  "time": "2025-01-23 18:25:49"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 18:25:49"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:134",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:25:50"
+}
+[GIN] 2025/01/23 - 18:25:50 | 200 |    1.817745ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 18:26:10.930961817 +0530 IST m=+0.004663337",
+  "time": "2025-01-23 18:26:10"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 18:26:10"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:135",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "18  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:26:12"
+}
+[GIN] 2025/01/23 - 18:26:12 | 200 |    3.061264ms |       127.0.0.1 | PUT      "/protected/tasks/18"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:130",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "10 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :1",
+  "time": "2025-01-23 18:26:29"
+}
+[GIN] 2025/01/23 - 18:26:29 | 422 |    7.180637ms |       127.0.0.1 | PUT      "/protected/tasks/10"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 18:27:30.561576516 +0530 IST m=+0.008349335",
+  "time": "2025-01-23 18:27:30"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 18:27:30"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:130",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "10 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 18:27:32"
+}
+[GIN] 2025/01/23 - 18:27:32 | 422 |    1.581115ms |       127.0.0.1 | PUT      "/protected/tasks/10"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:130",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "10 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 18:27:33"
+}
+[GIN] 2025/01/23 - 18:27:33 | 422 |    1.541092ms |       127.0.0.1 | PUT      "/protected/tasks/10"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:130",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "10 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 18:27:34"
+}
+[GIN] 2025/01/23 - 18:27:34 | 422 |    1.123948ms |       127.0.0.1 | PUT      "/protected/tasks/10"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:130",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "10 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 18:27:34"
+}
+[GIN] 2025/01/23 - 18:27:34 | 422 |    1.964053ms |       127.0.0.1 | PUT      "/protected/tasks/10"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:135",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "16  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 18:27:38"
+}
+[GIN] 2025/01/23 - 18:27:38 | 200 |    3.900093ms |       127.0.0.1 | PUT      "/protected/tasks/16"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:130",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "16 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 18:27:54"
+}
+[GIN] 2025/01/23 - 18:27:54 | 422 |     1.97275ms |       127.0.0.1 | PUT      "/protected/tasks/16"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:10:58.5355622 +0530 IST m=+0.005167708",
+  "time": "2025-01-23 19:10:58"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:10:58"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:25:30.150832243 +0530 IST m=+0.007046398",
+  "time": "2025-01-23 19:25:30"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:25:30"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 19:25:48 | 401 |     179.317µs |       127.0.0.1 | GET      "/protected/tasks?id=11"
+[GIN] 2025/01/23 - 19:26:00 | 200 |    8.000632ms |       127.0.0.1 | POST     "/public/login"
+[GIN] 2025/01/23 - 19:26:08 | 200 |     815.539µs |       127.0.0.1 | POST     "/public/login"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:123",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "11  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:26:19"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:89",
+  "func": "golang-assesment/Controllers.GetTask",
+  "level": "info",
+  "msg": "11  @GetTask Retrive task successfully",
+  "time": "2025-01-23 19:26:19"
+}
+[GIN] 2025/01/23 - 19:26:19 | 200 |    3.458105ms |       127.0.0.1 | GET      "/protected/tasks?id=11"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:34:33.278147674 +0530 IST m=+0.004805783",
+  "time": "2025-01-23 19:34:33"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:34:33"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 19:34:42 | 401 |       72.05µs |       127.0.0.1 | PUT      "/protected/tasks/16"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "16  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:34:57"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:163",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:34:57"
+}
+[GIN] 2025/01/23 - 19:34:57 | 422 |    4.257451ms |       127.0.0.1 | PUT      "/protected/tasks/16"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "15  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:35:03"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:163",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:35:03"
+}
+[GIN] 2025/01/23 - 19:35:03 | 422 |    1.266371ms |       127.0.0.1 | PUT      "/protected/tasks/15"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "15  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:35:09"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:163",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:35:09"
+}
+[GIN] 2025/01/23 - 19:35:09 | 422 |    1.526128ms |       127.0.0.1 | PUT      "/protected/tasks/15"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:37:32.432574749 +0530 IST m=+0.004857878",
+  "time": "2025-01-23 19:37:32"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:37:32"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "15  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:37:34"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:163",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:37:34"
+}
+[GIN] 2025/01/23 - 19:37:34 | 422 |    1.372449ms |       127.0.0.1 | PUT      "/protected/tasks/15"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:38:03.003147179 +0530 IST m=+0.006395942",
+  "time": "2025-01-23 19:38:03"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:38:03"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "15  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:38:03"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:163",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:38:03"
+}
+[GIN] 2025/01/23 - 19:38:03 | 422 |    1.703164ms |             ::1 | PUT      "/protected/tasks/15"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "13  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:38:29"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:163",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:38:29"
+}
+[GIN] 2025/01/23 - 19:38:29 | 422 |    1.978948ms |             ::1 | PUT      "/protected/tasks/13"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:38:53.1439021 +0530 IST m=+0.005192449",
+  "time": "2025-01-23 19:38:53"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:38:53"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "13  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:38:55"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:158",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:38:55"
+}
+[GIN] 2025/01/23 - 19:38:55 | 422 |    2.648716ms |       127.0.0.1 | PUT      "/protected/tasks/13"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:40:05.060875199 +0530 IST m=+0.008945179",
+  "time": "2025-01-23 19:40:05"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:40:05"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "14  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:40:48"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:158",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:40:48"
+}
+[GIN] 2025/01/23 - 19:40:48 | 422 |    2.886242ms |       127.0.0.1 | PUT      "/protected/tasks/14"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:41:43.796207411 +0530 IST m=+0.005277298",
+  "time": "2025-01-23 19:41:43"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:41:43"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "14  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:41:48"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:158",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:41:48"
+}
+[GIN] 2025/01/23 - 19:41:48 | 422 |    2.172405ms |       127.0.0.1 | PUT      "/protected/tasks/14"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:42:15.444962515 +0530 IST m=+0.005490443",
+  "time": "2025-01-23 19:42:15"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:42:15"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "14  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:42:16"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:158",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:42:16"
+}
+[GIN] 2025/01/23 - 19:42:16 | 422 |    2.138873ms |       127.0.0.1 | PUT      "/protected/tasks/14"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:43:06.087205327 +0530 IST m=+0.006508013",
+  "time": "2025-01-23 19:43:06"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:43:06"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "14  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:43:09"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:158",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:43:09"
+}
+[GIN] 2025/01/23 - 19:43:09 | 422 |    2.429266ms |       127.0.0.1 | PUT      "/protected/tasks/14"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:46:29.278554392 +0530 IST m=+0.005159613",
+  "time": "2025-01-23 19:46:29"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:46:29"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "14  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:46:36"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:151",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask Something went wrong while update into DB  Error 1146 (42S02): Table 'AmplTest.mplTaskList' doesn't exist",
+  "time": "2025-01-23 19:46:36"
+}
+[GIN] 2025/01/23 - 19:46:36 | 422 |    8.861152ms |       127.0.0.1 | PUT      "/protected/tasks/14"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:46:57.615682613 +0530 IST m=+0.007786636",
+  "time": "2025-01-23 19:46:57"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:46:57"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "14  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:47:00"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:158",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:47:00"
+}
+[GIN] 2025/01/23 - 19:47:00 | 422 |     3.18224ms |       127.0.0.1 | PUT      "/protected/tasks/14"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:48:27.401768836 +0530 IST m=+0.005805811",
+  "time": "2025-01-23 19:48:27"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:48:27"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:161",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "14  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 19:48:34"
+}
+[GIN] 2025/01/23 - 19:48:34 | 200 |   13.112527ms |       127.0.0.1 | PUT      "/protected/tasks/14"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:156",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "14 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:48:34"
+}
+[GIN] 2025/01/23 - 19:48:34 | 422 |    3.199092ms |       127.0.0.1 | PUT      "/protected/tasks/14"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:156",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "14 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:48:34"
+}
+[GIN] 2025/01/23 - 19:48:34 | 422 |    3.647351ms |       127.0.0.1 | PUT      "/protected/tasks/14"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:156",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "14 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:48:38"
+}
+[GIN] 2025/01/23 - 19:48:38 | 422 |    1.421035ms |       127.0.0.1 | PUT      "/protected/tasks/14"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:156",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "14 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:49:01"
+}
+[GIN] 2025/01/23 - 19:49:01 | 422 |    1.589945ms |       127.0.0.1 | PUT      "/protected/tasks/14"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:156",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "16 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:49:07"
+}
+[GIN] 2025/01/23 - 19:49:07 | 422 |    1.271541ms |       127.0.0.1 | PUT      "/protected/tasks/16"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:49:25.208223598 +0530 IST m=+0.005425531",
+  "time": "2025-01-23 19:49:25"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:49:25"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:161",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "13  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 19:49:32"
+}
+[GIN] 2025/01/23 - 19:49:32 | 200 |    9.824221ms |       127.0.0.1 | PUT      "/protected/tasks/13"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:52:48.407405611 +0530 IST m=+0.006010740",
+  "time": "2025-01-23 19:52:48"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:52:48"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "3  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:53:23"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:163",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "error",
+  "msg": "0 @UpdateTask 0 record affected while update into DB  , taskUpdate.RowsAffected  :0",
+  "time": "2025-01-23 19:53:23"
+}
+[GIN] 2025/01/23 - 19:53:23 | 422 |    5.649954ms |       127.0.0.1 | PUT      "/protected/tasks/3"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:54:12.61429966 +0530 IST m=+0.007753894",
+  "time": "2025-01-23 19:54:12"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:54:12"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "3  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:54:13"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:168",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "0  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 19:54:13"
+}
+[GIN] 2025/01/23 - 19:54:13 | 200 |     8.16432ms |       127.0.0.1 | PUT      "/protected/tasks/3"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 19:55:07.552957064 +0530 IST m=+0.005834917",
+  "time": "2025-01-23 19:55:07"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 19:55:07"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginHandler (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "3  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:55:38"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:168",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "0  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 19:55:38"
+}
+[GIN] 2025/01/23 - 19:55:38 | 200 |    4.986912ms |       127.0.0.1 | PUT      "/protected/tasks/3"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:122",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "3  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 19:56:12"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:168",
+  "func": "golang-assesment/Controllers.UpdateTask",
+  "level": "info",
+  "msg": "0  @UpdateTask Task Updated successfully",
+  "time": "2025-01-23 19:56:12"
+}
+[GIN] 2025/01/23 - 19:56:12 | 200 |    4.220268ms |       127.0.0.1 | PUT      "/protected/tasks/3"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 20:11:59.749335387 +0530 IST m=+0.008405333",
+  "time": "2025-01-23 20:11:59"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 20:11:59"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginAuth (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:195",
+  "func": "golang-assesment/Controllers.LoginAuth",
+  "level": "error",
+  "msg": "0 @LoginAuth Error while check userId into Dbrecord not found",
+  "time": "2025-01-23 20:12:18"
+}
+[GIN] 2025/01/23 - 20:12:18 | 422 |    4.685173ms |       127.0.0.1 | POST     "/public/login"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 20:13:55.210820988 +0530 IST m=+0.008972819",
+  "time": "2025-01-23 20:13:55"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 20:13:55"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginAuth (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 20:15:02 | 200 |    3.958289ms |       127.0.0.1 | GET      "/public/tasklist?page=2&limit=3"
+[GIN] 2025/01/23 - 20:15:18 | 200 |    1.456195ms |       127.0.0.1 | GET      "/public/tasklist?page=1&limit=3"
+[GIN] 2025/01/23 - 20:15:26 | 200 |    1.161358ms |       127.0.0.1 | GET      "/public/tasklist?page=1"
+[GIN] 2025/01/23 - 20:15:42 | 200 |    1.147926ms |       127.0.0.1 | GET      "/public/tasklist"
+[GIN] 2025/01/23 - 20:17:51 | 200 |   23.879272ms |       127.0.0.1 | GET      "/public/tasklist?page=2&limit=3"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 20:18:41.374899197 +0530 IST m=+0.008894674",
+  "time": "2025-01-23 20:18:41"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 20:18:41"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginAuth (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:31",
+  "func": "golang-assesment/Controllers.GetTaskList",
+  "level": "error",
+  "msg": "  @GetTaskList Invalid page number",
+  "time": "2025-01-23 20:18:47"
+}
+[GIN] 2025/01/23 - 20:18:47 | 422 |     187.548µs |       127.0.0.1 | GET      "/public/tasklist?page=0&limit=3"
+[GIN] 2025/01/23 - 20:22:59 | 200 |   24.915762ms |       127.0.0.1 | GET      "/public/tasklist?page=1&limit=3"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 20:24:11.283908731 +0530 IST m=+0.005039148",
+  "time": "2025-01-23 20:24:11"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 20:24:11"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginAuth (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 20:24:14 | 200 |    1.572427ms |       127.0.0.1 | GET      "/public/tasklist?page=1&limit=2"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 20:24:39.283354482 +0530 IST m=+0.004777639",
+  "time": "2025-01-23 20:24:39"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 20:24:39"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginAuth (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 20:24:40 | 200 |    3.053253ms |       127.0.0.1 | GET      "/public/tasklist?page=1&limit=2"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 20:25:03.874414161 +0530 IST m=+0.006718867",
+  "time": "2025-01-23 20:25:03"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 20:25:03"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginAuth (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 20:25:04 | 200 |    1.639844ms |       127.0.0.1 | GET      "/public/tasklist?page=1&limit=2"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 20:56:53.000313278 +0530 IST m=+0.004690364",
+  "time": "2025-01-23 20:56:53"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 20:56:53"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginAuth (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+[GIN] 2025/01/23 - 20:57:05 | 200 |    5.824861ms |       127.0.0.1 | GET      "/public/tasklist?page=1&limit=2"
+[GIN] 2025/01/23 - 20:57:06 | 200 |    1.745277ms |       127.0.0.1 | GET      "/public/tasklist?page=1&limit=2"
+[GIN] 2025/01/23 - 20:57:07 | 200 |    1.671679ms |       127.0.0.1 | GET      "/public/tasklist?page=1&limit=2"
+[GIN] 2025/01/23 - 20:57:07 | 200 |    3.732757ms |       127.0.0.1 | GET      "/public/tasklist?page=1&limit=2"
+[GIN] 2025/01/23 - 20:57:07 | 200 |    1.371589ms |       127.0.0.1 | GET      "/public/tasklist?page=1&limit=2"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 20:57:15.297333607 +0530 IST m=+0.006144805",
+  "time": "2025-01-23 20:57:15"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 20:57:15"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginAuth (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Middleware/Auth.go:54",
+  "func": "golang-assesment/Routes.SetupRoutes.ValidateToken.func1",
+  "level": "error",
+  "msg": "@ValidateToken No token provided",
+  "time": "2025-01-23 20:57:26"
+}
+[GIN] 2025/01/23 - 20:57:26 | 401 |       101.1µs |       127.0.0.1 | GET      "/protected/tasks?id=11"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:34",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "Current Time: 2025-01-23 21:04:35.354269708 +0530 IST m=+0.006833594",
+  "time": "2025-01-23 21:04:35"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2025-01-23.log",
+  "time": "2025-01-23 21:04:35"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/tasklist          --> golang-assesment/Controllers.GetTaskList (3 handlers)
+[GIN-debug] POST   /public/login             --> golang-assesment/Controllers.LoginAuth (3 handlers)
+[GIN-debug] GET    /protected/tasks          --> golang-assesment/Controllers.GetTask (5 handlers)
+[GIN-debug] POST   /protected/create-task    --> golang-assesment/Controllers.CreateTask (5 handlers)
+[GIN-debug] PUT    /protected/tasks/:id      --> golang-assesment/Controllers.UpdateTask (5 handlers)
+[GIN-debug] DELETE /protected/tasks/:id      --> golang-assesment/Controllers.DeleteTask (5 handlers)
+[GIN-debug] GET    /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /apidoc/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9000
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Middleware/Auth.go:54",
+  "func": "golang-assesment/Routes.SetupRoutes.ValidateToken.func1",
+  "level": "error",
+  "msg": "@ValidateToken No token provided",
+  "time": "2025-01-23 21:04:43"
+}
+[GIN] 2025/01/23 - 21:04:43 | 401 |      99.256µs |       127.0.0.1 | GET      "/protected/tasks?id=11"
+[GIN] 2025/01/23 - 21:04:50 | 401 |      52.712µs |       127.0.0.1 | GET      "/protected/tasks?id=11"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:173",
+  "func": "golang-assesment/Controllers.LoginAuth",
+  "level": "error",
+  "msg": "0 @LoginAuth Error while check userId into Dbrecord not found",
+  "time": "2025-01-23 21:05:00"
+}
+[GIN] 2025/01/23 - 21:05:00 | 422 |    5.578164ms |       127.0.0.1 | POST     "/public/login"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Middleware/Auth.go:44",
+  "func": "golang-assesment/Middleware.JWTTokenGenerate",
+  "level": "info",
+  "msg": "1 @JWTTokenGenerate Token Signed succesfully:",
+  "time": "2025-01-23 21:05:10"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:186",
+  "func": "golang-assesment/Controllers.LoginAuth",
+  "level": "info",
+  "msg": "1  @DeleteTask Task deleted successfully",
+  "time": "2025-01-23 21:05:10"
+}
+[GIN] 2025/01/23 - 21:05:10 | 200 |   29.902953ms |       127.0.0.1 | POST     "/public/login"
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:105",
+  "func": "golang-assesment/Controllers.FetchTaskFromDB",
+  "level": "error",
+  "msg": "11  @GetTask 0 records fetch while fetch from DB:",
+  "time": "2025-01-23 21:05:46"
+}
+{
+  "file": "/home/choice/Documents/vani/golang-assesment/Controllers/TaskManagmnt.go:72",
+  "func": "golang-assesment/Controllers.GetTask",
+  "level": "info",
+  "msg": "11  @GetTask Retrive task successfully",
+  "time": "2025-01-23 21:05:46"
+}
+[GIN] 2025/01/23 - 21:05:46 | 200 |     1.24137ms |       127.0.0.1 | GET      "/protected/tasks?id=11"
