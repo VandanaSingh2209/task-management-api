@@ -57,7 +57,21 @@ Run the application:
 
     go run .
 
+-- Create the database
+CREATE DATABASE AmplTest;
 
+-- Use the database
+USE AmplTest;
+
+-- Create the table
+CREATE TABLE AmplTaskList (
+    ID INT AUTO_INCREMENT PRIMARY KEY, -- Auto-generated unique ID
+    Title VARCHAR(255) NOT NULL, -- Title (string, required)
+    Description TEXT NOT NULL, -- Description (string, required)
+    Status ENUM('pending', 'in-progress', 'completed') NOT NULL DEFAULT 'pending', -- Status (enum)
+    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- Auto-generated timestamp for creation
+    UpdatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP -- Auto-updated timestamp
+);
 
 
 Middleware
